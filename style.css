@@ -1,0 +1,36 @@
+/*
+Theme Name: Mu Bootstrap Block Theme
+Theme URI: https://audilu.com/
+Author: Audi Lu
+Author URI: https://audilu.com/
+Description: An experimental block theme with Bootstrap 5.
+Tags: block-patterns, block-styles, editor-style, full-site-editing, bootstrap
+Requires at least: 5.8
+Tested up to: 5.8
+Requires PHP: 5.6
+Version: 0.1.0
+License: 
+License URI: 
+Text Domain: mu
+*/
+
+.container{
+    max-width: 960px;
+}
+.wp-block-post img{
+    max-width: 100%;
+    height: auto;
+}
+.row .wp-block-columns > .wp-block-column {
+    flex-basis: inherit;
+}
+.row .wp-block-columns:not(.is-not-stacked-on-mobile) > .wp-block-column:not(:first-child){
+    margin-left: inherit;
+}
+
+/* Block Styles
+---------------------------------------------------------------------------- */
+
+.is-style-no-margin {
+	margin: 0;
+}
